@@ -14,6 +14,8 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   
   > Live share *opcional* (https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
   
+  > TODO List *opcional* (https://marketplace.visualstudio.com/items?itemName=TzachOvadia.todo-list)
+  
 ## Configuração do git
 
   Após criar o seu código local, está na hora de você integrar ao github para controle de commits, pull e issue requests. Para isso, deve ser seguido os passos abaixo:
