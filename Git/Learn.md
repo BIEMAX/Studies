@@ -14,7 +14,7 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   
   > Live share *opcional* (https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
   
-## Introdução
+## Configuração do git
 
   Após criar o seu código local, está na hora de você integrar ao github para controle de commits, pull e issue requests. Para isso, deve ser seguido os passos abaixo:
   
@@ -49,22 +49,35 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   git init
   ```
   
+  > **Aviso:** Os exemplos que contenham menor/maior e aspas devem ser removidos ao configurar no seu ambiente, eles estão presentes apenas 
+  
   > Configurar o nome de usuário responsável pelo commits
   ```bash
-  git config user.name "SeuNomeAqui"
+  git config user.name <"SeuNomeAqui">
   ``` 
   
   > Configura o e-mail do usuário responsável pelos commits
   ```bash
-  git config user.email "SeuEmailAqui@someplace.com"
+  git config user.email <"SeuEmailAqui@someplace.com">
   ```
   
   5. Após configurar o usuário, você deverá configurar o repositório que irá receber os seus devidos commits, para isso, executar o comando abaixo:
   ```bash
-  git remote add "repository name" <repository url address from github>
+  git remote add <"repository name"> <repository url address from github>
   ```
   
-  6. Após configurar isso, você poderá iniciar o seu desenvolvimento. Após adicionar/editar/excluir algo no seu código, os comandos a serem seguidos são:
+  6. Você ainda deve configurar os respositórios de pull, origin e outras branch's desejadas:
+  ```bash
+  git remote add <"nome da branch (master/develop/origin)"> <"url">
+  ```
+  
+  ## Comandos úteis do GIT
+  
+  
+  
+  ## Sequência de comandos do GIT
+  
+  1. Após configurar seu git no seu projeto local, você poderá iniciar o seu desenvolvimento. Após adicionar/editar/excluir algo no seu código, os comandos a serem seguidos são:
   ```bash
   git add *
   ```
@@ -74,12 +87,12 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   git commit -a -m "Sua mensagem de commit aqui"
   ```
   
-  7. Após efetuar o stage dos seus arquivos, efetuar o commit (exceto se ele não foi executado com o segundo comando acima, caso o commit já tenha sido executado, prosseguir para o passo de número oito (8)):
+  2. Após efetuar o stage dos seus arquivos, efetuar o commit (exceto se ele não foi executado com o segundo comando acima, caso o commit já tenha sido executado, prosseguir para o passo de número oito (8)):
   ```bash
   git commit -m "some init msg"
   ```
   
-  8. O commit fica salvo na sua máquina, você deverá enviá-lo para nuvem (github, bitbucket, dentre outros serviços) utilizando o seguinte comando:
+  3. O commit fica salvo na sua máquina, você deverá enviá-lo para nuvem (github, bitbucket, dentre outros serviços) utilizando o seguinte comando:
   ```bash
   git push "respository name" "branch"
   ```
