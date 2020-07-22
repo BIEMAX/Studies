@@ -81,6 +81,8 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   
   8. O commit fica salvo na sua máquina, você deverá enviá-lo para nuvem (github, bitbucket, dentre outros serviços) utilizando o seguinte comando:
   ```bash
-  git push "respository name"
+  git push "respository name" "branch"
   ```
   > **Aviso:** O nome acima deve ser o mesmo dado no passo de número 6.
+  
+  > **Aviso 2:** A branch é o nome da sua branch ou feature que estiver trabalhando (master, develop, feature/I107, etc...)
