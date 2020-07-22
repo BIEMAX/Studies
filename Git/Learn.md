@@ -59,7 +59,12 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   git config user.email "SeuEmailAqui@someplace.com"
   ```
   
-  > Após adicionar/editar/excluir algo no seu código, os comandos a serem seguidos são:
+  5. Após configurar o usuário, você deverá configurar o repositório que irá receber os seus devidos commits, para isso, executar o comando abaixo:
+  ```bash
+  git remote add "repository name" <repository url address from github>
+  ```
+  
+  6. Após configurar isso, você poderá iniciar o seu desenvolvimento. Após adicionar/editar/excluir algo no seu código, os comandos a serem seguidos são:
   ```bash
   git add *
   ```
@@ -69,7 +74,13 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   git commit -a -m "Sua mensagem de commit aqui"
   ```
   
-  > Após dar o *stage* em todos os arquivos, efetuar o commit
+  7. Após efetuar o stage dos seus arquivos, efetuar o commit (exceto se ele não foi executado com o segundo comando acima, caso o commit já tenha sido executado, prosseguir para o passo de número oito (8)):
   ```bash
   git commit -m "some init msg"
   ```
+  
+  8. O commit fica salvo na sua máquina, você deverá enviá-lo para nuvem (github, bitbucket, dentre outros serviços) utilizando o seguinte comando:
+  ```bash
+  git push "respository name"
+  ```
+  > **Aviso:** O nome acima deve ser o mesmo dado no passo de número 6.
