@@ -16,6 +16,38 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   
   > TODO List *opcional* (https://marketplace.visualstudio.com/items?itemName=TzachOvadia.todo-list)
   
+## Configurações recomendáveis de padrão de código
+
+  **ESLint**
+  
+  > O ESLint é uma ferramenta para identificar e relatar padrões encontrados no código ECMAScript / JavaScript, com o objetivo de tornar o código mais consistente e evitar erros de formatação. De muitas maneiras, é semelhante ao JSLint e JSHint (https://eslint.org/docs/user-guide/getting-started#:~:text=ESLint%20is%20a%20tool%20for,uses%20Espree%20for%20JavaScript%20parsing.)
+  
+  ```javascript
+  //Exemplo de arquivo ".eslintrc.js"
+  module.exports = {
+    env: {
+      es6: true,
+      node: true,
+    },
+    extends: 'eslint:recommended',
+    parserOptions: {
+      ecmaVersion: 2017,
+    },
+    globals: {
+      __: false,
+      describe: false,
+      before: false,
+      it: false,
+    },
+    rules: {
+      indent: ['error', 2],
+      'linebreak-style': ['error', 'unix'],// unix para linux e windows para windows
+      quotes: ['error', 'single'],
+      semi: ['error', 'never'],
+    },
+  };
+  ```
+  
 ## Configuração do git
 
   Após criar o seu código local, está na hora de você integrar ao github para controle de commits, pull e issue requests. Para isso, deve ser seguido os passos abaixo:
