@@ -62,6 +62,17 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   
   3. Para configurar, basta executar os comandos abaixos (um por vez), respeitando sua cronologia:
   
+  > **Atenção**: Extremamente recomendável seguir os passos para não ter problemas e/ou complicações.
+  
+  4. O jeito mais fácil (e menos trabalhoso) de efetuar seus commits é criar um repositório (pasta) dentro do Github (pode ser uma pasta vazia apenas com o arquivo de licença MIT) e efetuar um git clone.
+  
+  5. Após obter o git clone do seu repositório, abra um diretório em um local de sua escolha no seu sistema operacional e navegue com o terminal (cmd, powershell, terminal do linux) até o mesmo e digite o seguinte comando:
+  ```bash
+  git clone <url>
+  ```
+  
+  6. Isso fará com que o terminal faça um download do seu diretório e já efetue as configurações básicas para enviar commits (enviar seu código para nuuvem). Você pode optar por configurar por conta e risco, o que é extremamente difícil e cansativo. Em seguida, você precisará configurar o seu usuário e e-mail, para que quando efetue um commit, fique salvo quem foi o responsável por fazê-lo.
+  
   > **Atenção:** Os comandos abaixo não funcionaram na minha máquina (não ficou definido o usuário por algum motivo desconhecido), por isso, tive que seguir com o passo 4.
   
   > Comandos que o Git apresenta
@@ -76,13 +87,6 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   git config --global user.name "Dionei dos santos"
   ```
   
-  4. Caso o comando acima tenha dado certo (só irá descobrir quando for efetuar o commit), você irá executar a linha de comando abaixo sempre que iniciar um novo respositório, pois essas configurações ficam salvas dentro do seu projeto.
-  
-  > Inicializar a sincronicazação com o git
-  ```bash
-  git init
-  ```
-  
   > **Aviso:** Os exemplos que contenham menor/maior e aspas devem ser removidos ao configurar no seu ambiente, eles estão presentes apenas 
   
   > Configurar o nome de usuário responsável pelo commits
@@ -93,16 +97,6 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   > Configura o e-mail do usuário responsável pelos commits
   ```bash
   git config user.email <"SeuEmailAqui@someplace.com">
-  ```
-  
-  5. Após configurar o usuário, você deverá configurar o repositório que irá receber os seus devidos commits, para isso, executar o comando abaixo:
-  ```bash
-  git remote add <"repository name"> <repository url address from github>
-  ```
-  
-  6. Você ainda deve configurar os respositórios de pull, origin e outras branch's desejadas:
-  ```bash
-  git remote add <"nome da branch (master/develop/origin)"> <"url">
   ```
   
   ## Comandos úteis do GIT
