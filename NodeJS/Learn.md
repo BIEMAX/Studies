@@ -63,8 +63,31 @@ Para criar um novo projeto, basta criar uma nova pasta em um local de sua escolh
     }
   }
   ```
+ 
+## Instalação de dependências
   
-  6. Instalar a dependência do Microsoft SQL Server.
+  > Instalar a dependência do Microsoft SQL Server.
   ```bash
   npm install -S mssql
+  ```
+  
+## Fast tips
+
+  > Utilizando o *module.export*.
+  ```javascript
+  
+  //Aqui é exportados objetos do tipo ResponseStatus contendo as propriedades 100, 101, etc..
+  module.exports.ResponseStatus = {
+    100: { Cod: 100, Msg: '' },
+    101: { Cod: 101, Msg: '' },
+    PreLoad: { Cod: 100, Msg: '' },
+    Error: { Cod: 400, Msg: 'Ocorreu um erro e o servidor resolveu negar a requisição' },
+    Success: { Cod: 200, Msg: 'OK' },
+  }
+
+  //Aqui são exportados objetos do tipo Empty e Filled.
+  module.exports = ValueStatus = {
+    Empty: true,
+    Filled: true
+  }
   ```
