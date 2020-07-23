@@ -41,7 +41,7 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
     },
     rules: {
       indent: ['error', 2],
-      'linebreak-style': ['error', 'unix'],// unix para linux e windows para windows
+      'linebreak-style': ['error', 'unix', 'windows'],// unix para linux e windows para windows
       quotes: ['error', 'single'],
       semi: ['error', 'never'],
     },
