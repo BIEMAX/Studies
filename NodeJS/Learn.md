@@ -91,3 +91,9 @@ Para criar um novo projeto, basta criar uma nova pasta em um local de sua escolh
     Filled: true
   }
   ```
+  
+  > O *strict mode* indico que o código deve ser executado no "modo estrito". Com o modo estrito, você não pode, por exemplo, usar variáveis não declaradas. Todos os navegadores modernos suportam *use strict*, exceto o Internet Explorer 9 e versões inferiores. Você poderá implementá-lo da seguinte forma:
+```javascript
+'use strict'
+
+module.exports = () => { ... }
