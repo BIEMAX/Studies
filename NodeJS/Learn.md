@@ -41,7 +41,7 @@ Para criar um novo projeto, basta criar uma nova pasta em um local de sua escolh
   ```
   
   5. Após instalar o *nodemon*, basta adicionar no *package.json*, as inicializações (exemplo a seguir):
-  ```json
+  ```javascript
   {
     "name": "smart-assistant-api",
     "version": "1.0.0",
