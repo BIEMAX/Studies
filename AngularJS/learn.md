@@ -29,6 +29,14 @@
 
 ## Instalação de dependências
 
+Caso você desejar, você poderá adicionar o *angular materials*, um framework contendo componentes personalizados com base no angular. Para adicioná-lo, basta executar o seguinte comando:
+> ng add @angular/material
+
+Caso você preferir, poderá também instalar o *angular pwa* que significa *progressive web applications*, ou seja, combinam o que tem de melhor em aplicações Web e o melhor dos aplicativos.
+> ng add @angular/pwa
+
+Caso você deseja instalar em produção o seu projeto, deverá executar o seguinte comando:
+> ng build --prod
 
 ## Fast tips
 
