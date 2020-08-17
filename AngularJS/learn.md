@@ -32,6 +32,14 @@
 Caso você desejar, você poderá adicionar o *angular materials*, um framework contendo componentes personalizados com base no angular. Para adicioná-lo, basta executar o seguinte comando:
 > ng add @angular/material
 
+> **Aviso:** Você até consegue criar um projeto em Angular.JS e adicionar o Angular Material, mas é complexo demais, é mais simples criar um projeto novo utilizando o Material. Para isso, execute os comandos abaixos:
+
+```bash
+ng new angular-material-app
+```
+
+> **Aviso:** Maiores informações, [clique aqui.](https://tudip.com/blog-post/how-to-install-angular-material/)
+
 Caso você preferir, poderá também instalar o *angular pwa* que significa *progressive web applications*, ou seja, combinam o que tem de melhor em aplicações Web e o melhor dos aplicativos.
 > ng add @angular/pwa
 
