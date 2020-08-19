@@ -72,7 +72,7 @@ const routes: Routes = [
     component: LoginComponent
   }
   ,{
-     path: '/home', //Rota personalizada
+     path: 'home', //Rota personalizada, não é necessário adicionar a barra ou contra barra, próprio framework faz isso
      component: HomeComponent
   }
 ];
