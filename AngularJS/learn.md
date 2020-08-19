@@ -50,6 +50,10 @@ Caso você deseja instalar em produção o seu projeto, deverá executar o segui
 
 Para criar um novo componente dentro do seu projeto (sem ter de criar os componentes manualmente), digite o comando abaixo no seu terminal do *visual studio code*:
 
-> ng generate component componente-name-here
->
+> ng generate component component-name-here
+
+Ou utilizando a forma abreviada:
+
+> ng g c component-name-here
+
 > **Aviso:** Evite utilizar nomes de componentes com espaços, não é seguro (acredito que o Angular se quer permite isso).
