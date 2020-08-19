@@ -57,3 +57,29 @@ Ou utilizando a forma abreviada:
 > ng g c component-name-here
 
 > **Aviso:** Evite utilizar nomes de componentes com espaços, não é seguro (acredito que o Angular se quer permite isso).
+
+Sempre que foi adicionado um novo componente, você precisará adicioná-lo manualmente nas rotas, dentro do arquivo *src/app-routing.module.ts* conforme exemplo abaixo:
+```javascript
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component'; //Importação dos componentes criados anteriormente
+import { LoginComponent } from './login/login.component'; //Importação dos componentes criados anteriormente
+
+//Router to access through angular
+const routes: Routes = [
+  {
+    path: '',//Caminho que a rota (url) será chamada para acessar o componente específico (se deixar em branco significará que é a página inicial)
+    component: LoginComponent
+  }
+  ,{
+     path: '/home', //Rota personalizada
+     component: HomeComponent
+  }
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+```
