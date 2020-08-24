@@ -71,6 +71,26 @@ Para criar um novo projeto, basta criar uma nova pasta em um local de sua escolh
   npm install -S mssql
   ```
   
+## Rastrear origem das requisições
+
+  Caso você preferir, você poderá adicionar alguns *consoles de log* para ver como é a vinda das informações dentro das requisições:
+
+  ```javascript
+  console.log('\Headers: ', req.headers)
+  console.log('\nHost: ', req.headers.host)
+  console.log('\nAuth: ', req.headers.authorization)
+  console.log('------------------\n\n', req)
+  console.log('\nIpv6: ', req._peername) //IPV6 do req
+  console.log('\nIP Origem: ', req._remoteAddress) //IP de origem da chamada
+  //console.log('req:\n', req) //Não aconselhável de descomentar, gera muitas linhas.
+  ```
+  
+  Caso você preferir, você poderá salvar dentro de uma variável a origem (o que seria recomendável):
+  
+  ```javascript
+  let origem = new String(req._remoteAddress).trim() == '::1' ? `Origem interna (SWAGGER): ${req.headers.origin}` : `Origem externa: ${req._remoteAddress}`
+  ```
+  
 ## Fast tips
 
   > Utilizando o *module.export*.
