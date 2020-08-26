@@ -83,3 +83,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 ```
+Para inicializar o projeto em https ao invés de http:
+> ng serve --ssl true
