@@ -36,6 +36,8 @@
   
   > **e.g.:** apt install rpm
  
+  Reiniciar o linux:
+  > sudo reboot
   
   
 ## Instalação de aplicativos
