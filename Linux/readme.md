@@ -9,6 +9,8 @@
   Obter e ler um arquivo:
   > cat /FolderName/FileName.extension
   
+  > **e.g.:** cat /etc/hosts
+  
   Obter a versão do linux:
   > cat /etc/os-release
   
@@ -28,3 +30,26 @@
   > su root
   
   > **Aviso:** Irá solictar a senha do root em sequência
+  
+  Instalar pacotes ou até mesmo aplicações:
+  > apt install PackageName
+  
+  > **e.g.:** apt install rpm
+ 
+  
+  
+## Instalação de aplicativos
+  
+  Instalar o editor de texto nano para *linux ubuntu e debian*:
+  > sudo apt install nano
+  
+  
+## Documentações
+  
+  [Clique aqui](https://linuxize.com/post/how-to-use-nano-text-editor) para visualizar uma documentação básica (e bem útil) para uso do nano em terminais.
+  
+
+## Configurações
+
+  Para alteração do hostname do seu linux server/client, [clique aqui](https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/).
+  
