@@ -26,10 +26,10 @@
   Reiniciar um serviço:
   > service ServiceNameHere restart
 
-  Fazer o login como root:
+  Fazer/trocar o login como/para root ou um usuário de sua escolha:
   > su root
   
-  > **Aviso:** Irá solictar a senha do root em sequência
+  > **Aviso:** Irá solictar a senha do root ou do usuário informado
   
   Instalar pacotes ou até mesmo aplicações:
   > apt install PackageName
@@ -38,6 +38,16 @@
  
   Reiniciar o linux:
   > sudo reboot
+  
+  Adicionar um novo usuário:
+  > adduser UserNameHere
+  
+  > **e.g.:** adduser proxy
+  
+  Adicionar o usuário ao *grupo sudo*:
+  > usermod -aG sudo UserNameHere
+  
+  > **e.g.:** usermod -aG sudo proxy
   
   
 ## Instalação de aplicativos
