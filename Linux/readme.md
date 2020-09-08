@@ -49,11 +49,23 @@
   
   > **e.g.:** usermod -aG sudo proxy
   
+  Obter a lista de usuários do linux:
+  > cat /etc/passwd
+  
+  > **Aviso:** Caso algum usuário listado esteja dentro da pasta *nologin*, significa que o mesmo não tem acesso para efetuar logins dentro do linux. Para habilitá-lo, inserir o comando abaixo:
+  
+  > sudo chsh -s /bin/bash UserNameHere
+  
+  Trocar a senha de algum usuário:
+  > sudo passwd UserNameHere
   
 ## Instalação de aplicativos
   
   Instalar o editor de texto nano para *linux ubuntu e debian*:
   > sudo apt install nano
+  
+  Instalar o editor de texto vim para *linux ubuntu e debian*:
+  > sudo apt install vim
   
   
 ## Documentações
