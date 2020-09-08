@@ -77,3 +77,8 @@
 
   Para alteração do hostname do seu linux server/client, [clique aqui](https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/).
   
+  Para habilitar o firewall na inicialização do status:
+  > sudo ufw enable
+  
+  Para verificar aplicativos com exceções no firewall:
+  > sudo ufw status
