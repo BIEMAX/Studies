@@ -65,6 +65,24 @@
   **e.g.:**
   > sudo chmod a+rwx /opt
   
+  
+  Ferramenta para download de arquivos:
+  > sudo apt-get install wget
+  
+  *Como utilizar:*
+  > wget UrlHere
+  >
+  > **e.g.:** wget https://download.oracle.com/otn_software/linux/instantclient/19600/instantclient-basic-linux.x64-19.6.0.0.0dbru.zip
+  
+  
+  Decompactador de arquivos linux:
+  > sudo apt-get install unzip
+  
+  *Como utilizar:*
+  > wget UrlHere
+  >
+  > **e.g.:** unzip file.zip -d /opt/DestinationFolderHere
+  
 ## Instalação de aplicativos
   
   Instalar o editor de texto nano para *linux ubuntu e debian*:
