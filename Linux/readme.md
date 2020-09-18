@@ -59,6 +59,12 @@
   Trocar a senha de algum usuário:
   > sudo passwd UserNameHere
   
+  Dar permissões nas pastas:
+  > sudo chmod a+rwx /path/to/file
+  
+  **e.g.:**
+  > sudo chmod a+rwx /opt
+  
 ## Instalação de aplicativos
   
   Instalar o editor de texto nano para *linux ubuntu e debian*:
