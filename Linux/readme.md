@@ -91,10 +91,14 @@
   Instalar o editor de texto vim para *linux ubuntu e debian*:
   > sudo apt install vim
   
+  Instalar o reddis:
+  > sudo apt install redis-server
+  
   
 ## Documentações
   
   [Clique aqui](https://linuxize.com/post/how-to-use-nano-text-editor) para visualizar uma documentação básica (e bem útil) para uso do nano em terminais.
+  [Clique aqui](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04-pt) para visualizar uma documentação de instalação do servidor redis.
   
 
 ## Configurações
