@@ -112,4 +112,5 @@
   > sudo ufw status
   
   Habilitar o login como root (por padrão, esse login é desativado em distros linux):
-  [Clique aqui](https://linuxconfig.org/allow-ssh-root-login-on-ubuntu-20-04-focal-fossa-linux) para habilitar o login com o usuário *root*
+  
+  > [Clique aqui](https://linuxconfig.org/allow-ssh-root-login-on-ubuntu-20-04-focal-fossa-linux) para habilitar o login com o usuário *root* no linux ubuntu
