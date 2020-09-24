@@ -44,10 +44,15 @@
   
   > **e.g.:** adduser proxy
   
-  Adicionar o usuário ao *grupo sudo*:
+  Adicionar o usuário ao *grupo sudo* no CentOs:
   > usermod -aG sudo UserNameHere
   
   > **e.g.:** usermod -aG sudo proxy
+    
+  Adicionar o usuário ao *grupo sudo* no Linux:
+  > usermod -G root UserNameHere
+  
+  > **e.g.:** usermod -G root dcapihml
   
   Obter a lista de usuários do linux:
   > cat /etc/passwd
