@@ -44,12 +44,12 @@
   
   > **e.g.:** adduser proxy
   
-  Adicionar o usuário ao *grupo sudo* no CentOs:
-  > usermod -aG sudo UserNameHere
+  Adicionar o usuário ao *grupo sudo/root* no CentOs:
+  > usermod -aG sudo UserNameHere  
   
   > **e.g.:** usermod -aG sudo proxy
     
-  Adicionar o usuário ao *grupo sudo* no Linux:
+  Adicionar o usuário ao *grupo sudo/root* no Ubuntu:
   > usermod -G root UserNameHere
   
   > **e.g.:** usermod -G root dcapihml
