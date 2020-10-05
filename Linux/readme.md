@@ -98,6 +98,8 @@
   
   Instalar o reddis:
   > sudo apt install redis-server
+  >
+  > **Nota:** [Clique aqui](https://redis.io/topics/quickstart) para visualizar mais detalhes da instalação do redis server.
   
   
 ## Documentações
