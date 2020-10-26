@@ -107,6 +107,11 @@
   [Clique aqui](https://linuxize.com/post/how-to-use-nano-text-editor) para visualizar uma documentação básica (e bem útil) para uso do nano em terminais.
   [Clique aqui](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04-pt) para visualizar uma documentação de instalação do servidor redis.
   
+## Editor de texto VIM
+
+  Habilitar o número de linhas:
+  > pressionar a tecla `esc` no teclado, em seguida, digitar `:set number` e pressionar a tecla `enter`.
+  
 
 ## Configurações
 
