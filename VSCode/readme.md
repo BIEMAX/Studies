@@ -14,3 +14,6 @@
 
 *Live Share*
 > Extensão para compartilhamento de código e alteração em tempo real (integrado com login microsoft e github)
+
+*Trocar a cor no console log*
+> [clique aqui](https://stackoverflow.com/questions/43528123/visual-studio-code-debug-console-colors)
