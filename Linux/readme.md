@@ -88,6 +88,9 @@
   >
   > **e.g.:** unzip file.zip -d /opt/DestinationFolderHere
   
+  Identificando sessões ativas dentro do linux:
+  > ss | grep ssh
+  
 ## Instalação de aplicativos
   
   Instalar o editor de texto nano para *linux ubuntu e debian*:
