@@ -97,6 +97,9 @@
   Verificar o uso de armazenamento do linux
   > df -h
   
+  Verificar conexões/ips abertas/conectados no linux
+  > ss | grep -i ssh
+  
   
   
 ## Instalação de aplicativos
