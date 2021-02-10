@@ -91,6 +91,14 @@
   Identificando sessões ativas dentro do linux:
   > ss | grep ssh
   
+  Verificar o uso de processamento no linux
+  > top
+  
+  Verificar o uso de armazenamento do linux
+  > df -h
+  
+  
+  
 ## Instalação de aplicativos
   
   Instalar o editor de texto nano para *linux ubuntu e debian*:
