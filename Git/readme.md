@@ -101,13 +101,18 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   
   ## Comandos úteis do GIT
   
-  
+  > Incrementar a versão do package json (version) automaticamente
+  ```
+  npm version patch --force
+  ```
   
   ## Sequência de comandos do GIT
   
   1. Após configurar seu git no seu projeto local, você poderá iniciar o seu desenvolvimento. Após adicionar/editar/excluir algo no seu código, os comandos a serem seguidos são:
   ```bash
   git add *
+  git add .
+  git add -A
   ```
   > **Outros códigos git com a mesma funcionalidade do código acima:**
   ```bash
@@ -124,6 +129,6 @@ https://docs.github.com/en/github/managing-files-in-a-repository/getting-permane
   ```bash
   git push "respository name" "branch"
   ```
-  > **Aviso:** O nome acima deve ser o mesmo dado no passo de número 6.
+  > **Aviso:** O nome acima deve ser o mesmo dado no passo de número 6. Só será necessário informar o nome do repositório e branch caso tu não tenha clonado o projeto diretamente do git hub.
   
   > **Aviso 2:** A branch é o nome da sua branch ou feature que estiver trabalhando (master, develop, feature/I107, etc...)
