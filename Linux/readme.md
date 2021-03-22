@@ -118,8 +118,31 @@
   
 ## Documentações
   
+  *Nano editor*
   [Clique aqui](https://linuxize.com/post/how-to-use-nano-text-editor) para visualizar uma documentação básica (e bem útil) para uso do nano em terminais.
+  
+  *Redis*
   [Clique aqui](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04-pt) para visualizar uma documentação de instalação do servidor redis.
+  
+  *Crontab*
+  [Clique aqui](https://www.hostinger.com.br/tutoriais/cron-job-guia) para visualizar como funciona o crontab (gerenciar tarefas repetitivas) no linux. Abaixo segue um breve tutorial:
+  
+  1. Execute o comando abaixo para abrir ou iniciar a edição do crontab
+  > crontab -e
+   
+  2. Cada linha no arquivo será um tarefa que ele irá executar.
+  
+  3. O padrão para as linhas é:
+
+
+  <p align="center">
+    <img src="https://github.com/BIEMAX/Studies/blob/master/Linux/crontab_info.png">
+  </p>  
+  
+  
+  4. Um exemplo de crontab é remover arquivos de logs. No exemplo abaixo, será apagado todos os arquivos da pasta específicada às 17:50 de toda sexta-feira.
+  > 50 17 * * 5  rm /root/.pm2/logs/*
+  
   
 ## Editor de texto VIM
 
